@@ -1,8 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/layout"
 
-const IndexPage = () => (
-  <p>hm</p>
-)
-
-export default IndexPage
+export default function Home() {
+  return (
+    <Layout>
+      <h1>Hello how are you doing</h1>
+      <p>What do I like to do? Lots of course but definitely enjoy building websites.</p>
+    </Layout>
+  )
+}
